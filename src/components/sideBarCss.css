@@ -1,0 +1,76 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+span
+{
+    font-size: 20px;
+}
+
+.element .material-symbols-outlined {
+    font-size: 25px; 
+
+  }
+
+  span
+  {
+    padding:5px;
+    display: flex;
+    flex-direction: row;
+    color:white;
+
+  }
+
+  #hamburger .material-symbols-outlined
+{
+    font-size: 30px !important;
+    position:fixed;
+    top:0;
+    z-index:999;
+    left:0;
+    float:inline-start;
+    color:red;
+    border:2px solid #283A97;
+
+}
+
+#title
+{
+    color:white;
+    font-size: 35px;
+    padding:35px;
+    text-align: center;
+}
+
+.sideBar
+{
+   position:fixed;
+   /* overflow-y: auto; */
+   height: 100%;
+     top:0;
+    left:0;
+    align-self: left;
+    width:17%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height:100vh;
+}
+
+.element
+{
+    color:white;
+    display: flex;
+    align-items: center;
+    margin-top: 7%;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.element:hover
+{
+    box-shadow: 0 0 10px rgba(255,255,255, 0.8);
+}
